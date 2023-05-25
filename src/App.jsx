@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import casanova from '../public/Casanova.svg'
+import casanova from '../public/casanova.svg'
 
 
 
@@ -18,7 +18,7 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-        <a href="http://www.w3.org/1999/xlink" target="_blank">
+        <a href="http://www.andreacasanova.art" target="_blank">
           <img src={casanova} className="logo casanova" alt="Casanova-logo" />
         </a>
       </div>
