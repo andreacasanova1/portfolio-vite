@@ -1,0 +1,15 @@
+.padre {
+    display: flex;
+    background-image: url(../../../public/imagesSVG/tramablack.svg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+      
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
