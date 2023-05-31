@@ -2,6 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import casanova from '/public/casanova.svg'
+import Portfolio from './Porfolio'
+import Portrait from './components/portrait/Portrait'
+import Cards from './components/cards/Cards'
+import Artshop from './components/artshop/Artshop'
+import Form from './components/form/Form'
 
 
 
@@ -12,17 +19,15 @@ function App() {
   return (
     <>
   <h1>soy la home del portfolio</h1>
-   
+      
     <main>
         <Routes>
           
-          <Route path='/' element={<Portfolio />} />
+          <Route path='*' element={<Portfolio />} />
           <Route path='/portrait' element={<Portrait/>} />
           <Route path='/cards' element={<Cards />} />
           <Route path='/artshop' element={<Artshop />} />
           <Route path='/form' element={<Form />} />       
-          
-          <Route path='/styleguide' element={<Styleguide />} />   
         </Routes>
       </main>
 
