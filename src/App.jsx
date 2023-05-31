@@ -12,6 +12,7 @@ import Portrait from './components/portrait/Portrait'
 import Cards from './components/cards/Cards'
 import Artshop from './components/artshop/Artshop'
 import Form from './components/form/Form'
+import ImageLoopAnimation from './components/loop/Loop';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
   <h2>The simple page is built using React technology.  </h2>
       <main>
       <Routes>
+          <Route path='/ImageLoopAnimation' element={<ImageLoopAnimation/>} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/portrait' element={<Portrait/>} />
           <Route path='/cards' element={<Cards />} />

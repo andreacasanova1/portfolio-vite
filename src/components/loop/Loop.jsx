@@ -5,18 +5,18 @@ import './loop.scss';
     const [currentImage, setCurrentImage] = useState(0);
   
     const images = [
-      '../src/images/imagesSvg/frame1.svg',
-      '../src/images/imagesSvg/frame2.svg'
+      '/public/frame1.svg',
+      '/public/frame2.svg'
     ];
   
     useEffect(() => {
       const handleScroll = () => {
-        const scrollPosition = window.scrollY;
-        const windowHeight = window.innerHeight;
-        const documentHeight = document.documentElement.scrollHeight;
+        const scrollPosition = window.scrollX;
+        const windowWidth = window.innerWidth;
+        const documentWidth = document.documentElement.scrollWidth;
   
         // Calcular el porcentaje de desplazamiento
-        const scrollPercentage = (scrollPosition / (documentHeight - windowHeight)) * 100;
+        const scrollPercentage = (scrollPosition / (documentWidth - windowWidth)) * 100;
   
         // Determinar qué imagen mostrar según el porcentaje de desplazamiento
         const imageIndex = Math.floor(scrollPercentage / 50) % 2;

@@ -3,8 +3,9 @@
 
 .background {
   display: flex;
-  background-image: url(../../../public/image/tramaOrange.webp);
+  background-image: url(./src/images/imagesSvg/tramaOrange.svg); 
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
