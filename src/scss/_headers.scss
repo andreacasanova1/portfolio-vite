@@ -1,14 +1,14 @@
 .vertical-text {
-    transform: rotate(-180deg);
+    transform: rotate(180deg);
     -ms-writing-mode: tb-rl;
     writing-mode: tb-rl;
-    width: 53px;
+    width: 60px;
     font-family: "Cinzel", serif;
-    font-size: 14px;
+    font-size: 10px;
     text-transform: uppercase;
     background-color: #fff;
-    align-items: center;
     justify-content: center;
     height: 100vh;
     display: flex;
+    align-items: center;
 }

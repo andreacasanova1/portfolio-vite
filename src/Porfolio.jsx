@@ -1,30 +1,30 @@
-import { useState } from 'react'
-import './App.css'
-import casanova from '../public/casanova.svg'
-import App from './App.jsx'
+import Portrait from './components/portrait/Portrait';
+import Cards from './components/cards/Cards';
+import Artshop from './components/artshop/Artshop';
+import Form from './components/form/Form';
+import IconChevron from '../src/components/iconsSvg/IconChevron';
+import Loop from '../src/components/loop/Loop';
+import './scss/global.scss';
 
-function Portfolio() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-    <div>
-        <a href="http://www.andreacasanova.art" target="_blank">
-          <img src={casanova} className="logo casanova" alt="Casanova-logo" />
-        </a>
+import React, { useState, useEffect } from 'react';
+
+
+export default function Portfolio() {
+    return (
+      <>
         
-        <div className="card"> 
-          <button onClick={() => setCount((count) => count + 2)}>
-            count is {count}
-          </button>
-        </div>
-        <p>
-          Edit <code>src/App.jsx</code> aqui pondre otra cosa
-        </p>
-    </div>  
-   
-    </>
-   )
+
+
+        < Loop />
+
+        < Portrait/>
+        < Cards />
+        < Artshop />
+        < Form/>
+        < IconChevron className="icon--large" size="large"  />
+
+      </>
+    );
 }
 
-export default Portfolio

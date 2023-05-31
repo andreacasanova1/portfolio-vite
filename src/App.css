@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0; /*modifica el margin tambien de la app, donde esta react+casanova*/
+  padding: 0rem;
   text-align: center;
 }
 
@@ -34,7 +34,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
+  a:nth-of-type(2) .logo, .casanova {
     animation: logo-spin infinite 20s linear;
   }
 }
