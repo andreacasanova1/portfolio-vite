@@ -42,7 +42,7 @@ const Portrait = () => {
     <div className="content-portrait">
       <div className="fondo-tramaBlack" />
 
-      <div className="vertical-text" style={tituloStyle}>  {/*como se define este tituloStyle que influye en el desplazamiento*/};
+      <div className="vertical-text" style={tituloStyle}>  {/*¿como se define este tituloStyle que influye en el desplazamiento*/}
       <h1>Front-end Developer and Visual Artist</h1> 
       </div>
 

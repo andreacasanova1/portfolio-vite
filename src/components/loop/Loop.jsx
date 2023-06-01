@@ -16,7 +16,7 @@ import './loop.scss';
         const documentWidth = document.documentElement.scrollWidth;
   
         // Calcular el porcentaje de desplazamiento
-        const scrollPercentage = (scrollPosition / (documentWidth - windowWidth)) * 100;
+        const scrollPercentage = (scrollPosition / (documentWidth - windowWidth)) * 500;
   
         // Determinar qué imagen mostrar según el porcentaje de desplazamiento
         const imageIndex = Math.floor(scrollPercentage / 50) % 2;
