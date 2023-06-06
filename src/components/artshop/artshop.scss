@@ -1,0 +1,31 @@
+
+.artshop-content-cuervos {
+    background: url("public/image/fondo-cuervos.webp");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sofa_imagen {
+    animation: deslizar 5s infinite;
+    max-width: 100vw;
+    width: 100vw;
+}
+
+@keyframes deslizar {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+
+.mi__logo {
+    max-width: 100px;
+    margin-top: 20px;
+}
+
