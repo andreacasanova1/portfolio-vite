@@ -1,0 +1,43 @@
+@import '../../scss/variable';
+/*aqui se esta llamando al scss de la clase .fondo-tramablack del portrait*/
+
+.fondo-tramaBlack  {
+
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+     & .formu {
+        justify-content: center;
+        text-align: center;
+     }
+}
+
+.formulario__fondo {
+    margin: 380px;
+    padding: 60px;
+    position: relative;
+    background-color: #ffffff;
+    max-width: 600px;
+    max-height: 686px;
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.formulario__campo {
+    display: colum-flex;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin: 2rem;
+    & input, textarea 
+        {background-color: $color-yellow;
+         text-decoration: none;
+
+}
+}
+

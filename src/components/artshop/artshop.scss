@@ -26,11 +26,17 @@
 
 .mi__logo {
     max-width: 250px;
-    /* max-width: 100px; */
+    animation: deslizar 3s infinite;
     margin-top: -77%;
     margin-bottom: 25%;
     position: relative;
-    margin-left: 80%;
+    margin-left: 70%;
+        &:hover{ 
+            background-image: url("public/frame2.svg");
+            max-width: 250px;
+            display:none;
+            /*revisar como poner un condicional para que en hover desaparesca logo 1 y se ponga logo 2*/
+    }
    
 }
 

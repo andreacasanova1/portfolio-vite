@@ -37,9 +37,10 @@ export default function Portfolio() {
               </Slide>
         </div>
         < Artshop />
-        < Form/>
+        
         < IconChevron className="icon--large" size="large"  />
 
+        < Form/>
       </>
     );
 }
