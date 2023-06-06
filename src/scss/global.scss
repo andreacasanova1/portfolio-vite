@@ -1,3 +1,70 @@
 @import '../scss/variable';
 @import '../scss/headers';
 
+h1 {
+    font-size: 2.2em;
+    line-height: 1.1;
+  }
+  
+  button {
+    border-radius: px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: $color-yellow;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: $orange-smoot;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  .buttonprincipal {
+    background-color: $orange-web;
+    border: solid 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+    border-radius: 6px;
+  }
+  
+  
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: $color-white;
+    padding: $padding-unit;
+    
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  
+  .buttonprincipal {
+    &:hover {
+      background-color: $orange-smoot;
+      color: $color-blue;
+      border-color: $color-blue;
+      
+    &:visited{
+      background-color: $silver;
+      color: $color-black;
+    }
+    }
+  }
+  
+  .btnmenu-2:visited {
+    color: blue;
+  }
+  

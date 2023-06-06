@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-  <h2>The simple page is built using React technology.  </h2>
+  
       <main>
       <Routes>
           <Route path='/ImageLoopAnimation' element={<ImageLoopAnimation/>} />
@@ -31,7 +31,7 @@ function App() {
       </Routes>
       
       </main>
-
+      <h2>The simple page is built using React technology.  </h2>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
