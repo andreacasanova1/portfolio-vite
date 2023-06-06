@@ -15,16 +15,17 @@ const Artshop = () => {
                     alt="compra arte"
                     className="sofa_imagen"
                 />
-            </div>
-            <div>
-                <a href="ruta_del_enlace">
+                    
+                    <a href="ruta_del_enlace">
                     <img
-                    src="public/frame1.svg"
+                    src="./public/frame1.svg"
                     alt="Logo con enlace"
                     className="mi__logo"
                     />
-                </a>
+                    </a>
+                    
             </div>
+            
     </div>        
 
     </>
