@@ -31,20 +31,7 @@ function App() {
       </Routes>
       
       </main>
-      <h2>The simple page is built using React technology.  </h2>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
 
-        <a href="http://www.andreacasanova.art" target="_blank">
-          <img src={casanova} className="logo casanova" alt="Casanova-logo" />
-        </a>
-      </div>
-      <h1>Vite + React + Casanova</h1>
       <div className="card">
         
       <button className='portfolio'>

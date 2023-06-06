@@ -20,12 +20,14 @@
       transform: translateX(100%);
     }
     100% {
-      transform: translateX(-100%);
+      transform: translateX(11vw);
     }
 }
 
 .mi__logo {
+    animation: deslizar 5s infinite;
     max-width: 100px;
     margin-top: 20px;
+   
 }
 

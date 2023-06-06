@@ -1,26 +1,31 @@
 import './artshop.scss';
-
+import React from 'react';
 
 const Artshop = () => {
     return (
       <>
-       <h1>Hola soy tu cuarto componente</h1>
-   
-      <div className='padre'>
-            <div className=''>
-                <h1> Art Shop</h1>
-            </div>
-            
-            <div className='retrato'>
-                <img src="../public/imagesSVG/frame1.svg" alt="Logo" />
-                <p>
-                Esta es mi tienda de arte, acá encontrarás mi trabajo artistico desde el año 2006.
- 
-            </p>
-            </div>
-        </div>
 
-            
+    <div className="artshop-content-cuervos">
+        <div>
+            <h1 className="vertical-text">Art Shop</h1>
+        </div>
+            <div>
+                <img
+                    src="public/image/sofa.webp"
+                    alt="compra arte"
+                    className="sofa_imagen"
+                />
+            </div>
+            <div>
+                <a href="ruta_del_enlace">
+                    <img
+                    src="public/frame1.svg"
+                    alt="Logo con enlace"
+                    className="mi__logo"
+                    />
+                </a>
+            </div>
+    </div>        
 
     </>
     );

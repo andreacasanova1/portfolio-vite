@@ -1,8 +1,27 @@
 .vertical-text {
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
     -ms-writing-mode: tb-rl;
     writing-mode: tb-rl;
-    width: 60px;
+    width:65px;
+    font-family: "Cinzel", serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    font-weight: bold;
+    left: -2vw;
+    position: absolute;
+
+   
+}
+
+/* transform: rotate(180deg);
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    width: 22px;
     font-family: "Cinzel", serif;
     font-size: 10px;
     text-transform: uppercase;
@@ -11,4 +30,4 @@
     height: 100vh;
     display: flex;
     align-items: center;
-}
+    padding: 6px;*/

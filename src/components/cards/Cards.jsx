@@ -9,18 +9,17 @@ const Cards = (props) => {
       <>
         
       <article className='card-padre'style={{width: '33vw'}}>
-          
-            <h1 className='vertical-text'>{props.title}</h1>
-          
-          <image className="card__img"><img src={props.image} alt={props.alt} />
-          </image>
-    
-          <p className='paragraph'>{props.paragraph}</p>
-         
-           
+        <div className='card-flex'>
+          <h1 className='vertical-text'>{props.title}</h1>
           <div>
-                <button className='buttonprincipal'>Ver más</button>
+            <div className="card__img">
+              <img src={props.image} alt={props.alt} />
+            </div> 
+            
+            <p className="paragraph">{props.paragraph}</p>
+            <button className="buttonprincipal">Ver más</button>
           </div>
+        </div>
       </article>       
       </>
     );
