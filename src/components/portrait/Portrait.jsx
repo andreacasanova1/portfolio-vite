@@ -4,8 +4,60 @@ import { Slide } from "react-awesome-reveal";
 
 
 const Portrait = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
+  return (
+    <>
+
+  <div className="fondo-tramaBlack">
+        <div>
+          <h1 className="vertical-text">Front-end Developer and Visual Artist</h1>
+        </div>
+        <div className="dress-yellow">
+          <img src="./public/image/dress-yellow.webp" alt="dress yellow"/>
+        </div>   
+        <div className="retrato">
+          <img src="./public/image/retrato.webp" alt="retrato"/>
+        </div>     
+  </div>        
+
+  </>
+  );
+} 
+
+export default Portrait;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //const [scrollPosition, setScrollPosition] = useState(0);
+ // const [isMobile, setIsMobile] = useState(false);
 
   // useEffect(() => {
   //   const handleScroll = () => {
@@ -39,31 +91,31 @@ const Portrait = () => {
   //   marginRight: isMobile ? '0' : '-45vw',
   // };
 
-  return (
-    <div className="content-portrait">
-      <div className="portrait fondo-tramaBlack" />
-      <div style={{ display: 'flex' }}>
-        <div className="vertical-text">  {/*¿como se define este tituloStyle que influye en el desplazamiento*/}
-        <h1>Front-end Developer and Visual Artist</h1> 
-        </div>
-        <Slide direction='down' duration='1000' >
-          <img
-            className="dress-yellow"
-            src="./public/image/dress-yellow.webp"
-            alt="Foto 1"
-            // style={foto1Style}
-            />
-        </Slide>
+ // return (
+  //  <div className="content-portrait">
+  //    <div className="portrait fondo-tramaBlack" />
+  //    <div style={{ display: 'flex' }}>
+  //      <div className="vertical-text">  {/*¿como se define este tituloStyle que influye en el desplazamiento*/}
+  //      <h1>Front-end Developer and Visual Artist</h1> 
+  //      </div>
+  //      <Slide direction='down' duration='1000' >
+  //        <img
+     //       className="dress-yellow"
+  //          src="./public/image/dress-yellow.webp"
+    //        alt="Foto 1"
+     //       // style={foto1Style}
+    //        />
+    //    </Slide>
 
-        <Slide direction='up' duration='1000'>
-          <img
-            className="retrato"
-            src="./public/image/retrato.webp"
-            alt="Foto 2"
-            // style={foto2Style}
-          />
-        </Slide>
-      </div>
+    //    <Slide direction='up' duration='1000'>
+   //       <img
+     //       className="retrato"
+   //         src="./public/image/retrato.webp"
+    //        alt="Foto 2"
+   //         // style={foto2Style}
+   //       />
+   //     </Slide>
+    //  </div>
       {/* {scrollPosition > window.innerWidth && (
         <div className="fondo-negro">
           <p>Mi nombre es Andrea Casanova soy apasionada del arte y el diseño, Artista Visual multidisciplinar, tengo más de diez años de trayectoria, muchas exposiciones y algunos premios.
@@ -73,11 +125,11 @@ const Portrait = () => {
                 Me encanta poner mis conocimientos al servicio de las necesidades de otros artistas y fotógrafos y ayudarlos a destacar sus obras, no obstante, estoy capacitada para desarrollar cualquier tipo de proyecto web.</p>
         </div>
       )} */}
-    </div>
-  );
-};
+  //  </div>
+ // );
+//};
 
-export default Portrait;
+
     
     
     

@@ -17,6 +17,7 @@ export default function Portfolio() {
         < Loop />
 
         < Portrait/>
+        
         <div style={{ display: 'flex', gap: '16px', justifyContent: 'space-around', flexWrap: 'wrap' }}>
               <Slide direction='down' duration='1000' cascade='true'>
                 < Cards title="Diseño y desarrollo web"

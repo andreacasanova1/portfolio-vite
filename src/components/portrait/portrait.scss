@@ -2,13 +2,6 @@
 @import './../../scss/mixins.scss';
    
 
-
-.content-portrait {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-  }
   
   /* .fondo-tramaBlack {
    position: absolute;
@@ -24,20 +17,23 @@
  
   
   .dress-yellow {
-    position: absolute;
-    right: 0%;
-    width: 40vw;
-  }
+    max-width: 100%;
+    height: auto;
+}
   
-  // .retrato {
-  //   position: absolute;
-  //   top: 5%;
-  //   left: 45vw;
   
-  //   height: auto;
-  //   transform: translateY(100vw);
-  //   margin-right: -45vw;
-  // }
+   .retrato {
+     
+    /* top: 5%;
+     left: 45vw;
+  
+     height: auto;
+     transform: translateY(100vw);
+     margin-right: -45vw;*/
+
+    max-width: 100%;
+    height: auto;
+   }
   
   .fondo-negro {
     position: fixed;
