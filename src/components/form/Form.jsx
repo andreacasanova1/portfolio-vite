@@ -34,7 +34,7 @@ const Form= (props) => {
             <button type="submit">Enviar</button>
           </form>
           
-          <div className="form__rr-ss">
+          <div className="form__rr-ss">{ props.children}
               
               <div className="nombre-i">{props.name}
                 <img src={props.i} alt={props.alt}/>

@@ -38,25 +38,24 @@ export default function Portfolio() {
               </Slide>
         
         < Artshop />
-    
-        < Form 
-                   
-            
-        />
-            <div style={{ display: 'flex', gap: '16px', justifyContent: 'space-around', flexWrap: 'wrap' }}>
-                      <Icons i="public/image/icons/react.svg" 
-                            alt="react" />
-                      <Icons i="public/image/icons/github.svg" 
-                            alt="github" />
-                      <Icons i="public/image/icons/codepen.svg" 
-                            alt="codepen" />
-                      <Icons i="public/image/icons/sass.svg" 
-                            alt="sass" />       
-                      <Icons i="public/image/icons/instagram.svg" 
-                            alt="instagram" />
-                      <Icons i="public/image/icons/linkd.svg" 
-                            alt="linkedin" />              
-            </div>
+        
+          < Form form__rr-ss>
+              <div style={{ display: 'flex', gap: '16px', justifyContent: 'space-around', flexWrap: 'wrap' }}>
+                  <Icons i="public/image/icons/react.svg" 
+                        alt="react" />
+                  <Icons i="public/image/icons/github.svg" 
+                        alt="github" />
+                  <Icons i="public/image/icons/codepen.svg" 
+                        alt="codepen" />
+                  <Icons i="public/image/icons/sass.svg" 
+                        alt="sass" />       
+                  <Icons i="public/image/icons/instagram.svg" 
+                        alt="instagram" />
+                  <Icons i="public/image/icons/linkd.svg" 
+                        alt="linkedin" />              
+              </div>    
+            </Form>
+        
           
         </div>  
       
