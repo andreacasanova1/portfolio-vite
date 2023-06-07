@@ -41,7 +41,7 @@ const Portrait = () => {
 
   return (
     <div className="content-portrait">
-      <div className="fondo-tramaBlack" />
+      <div className="portrait fondo-tramaBlack" />
       <div style={{ display: 'flex' }}>
         <div className="vertical-text">  {/*¿como se define este tituloStyle que influye en el desplazamiento*/}
         <h1>Front-end Developer and Visual Artist</h1> 

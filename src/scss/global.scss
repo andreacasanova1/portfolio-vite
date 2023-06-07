@@ -1,11 +1,12 @@
 @import '../scss/variable';
 @import '../scss/headers';
+@import '../scss/mixins.scss';
 
 
 
 
-h1 {
-    font-size: 2.2em;
+h2 {
+    font-size: 1.5em;
     line-height: 1.1;
   }
   

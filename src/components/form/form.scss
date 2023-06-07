@@ -1,18 +1,12 @@
 @import '../../scss/variable';
 @import './../iconsSvg/Icons.scss';
-/*aqui se esta llamando al scss de la clase .fondo-tramablack del portrait*/
+@import './../../scss/mixins.scss';
 
-.fondo-tramaBlack  {
 
-    
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-     & .formu {
-        justify-content: center;
-        text-align: center;
-     }
+/*.fondo-tramaBlack  { 
+    esta puesto en mixin
 }
+}*/
 
 .formulario__fondo {
     margin: 6rem;
@@ -38,8 +32,8 @@
     & input, textarea 
         {background-color: $color-yellow;
          text-decoration: none;
-         
+        
+}
+}
 
-}
-}
 

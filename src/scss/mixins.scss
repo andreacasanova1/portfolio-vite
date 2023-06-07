@@ -1,0 +1,24 @@
+/*ya sé que no es un mixin , pero el mixins no funciona*/
+.fondo-tramaBlack {
+    background-image: url(../../images/imagesSvg/tramaBlack.svg);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+        &.form {
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+    }
+        &.portrait {
+            position: absolute;
+            background-size: cover;
+            background-position: center;
+    
+    }
+
+    }
+
+  
+  

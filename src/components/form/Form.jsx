@@ -4,11 +4,12 @@ import './form.scss';
 
 
 
+
 const Form= (props) => {
   return (
     <>
      
-    <div className="fondo-tramaBlack formu">
+    <div className=" form fondo-tramaBlack formu">
       
       <div className="formulario__fondo">
           <h2>Contact</h2>

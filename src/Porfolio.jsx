@@ -2,7 +2,6 @@ import Portrait from './components/portrait/Portrait';
 import Cards from './components/cards/Cards';
 import Artshop from './components/artshop/Artshop';
 import Form from './components/form/Form';
-import IconChevron from '../src/components/iconsSvg/IconChevron';
 import Loop from '../src/components/loop/Loop';
 import Icons from '../src/components/iconsSvg/Icons';
 import './scss/global.scss';
@@ -58,23 +57,7 @@ export default function Portfolio() {
             </Form>
 
 
-        {/*     < Form className='form__rr-ss'>
-              <div>
-                  <Icons i="public/image/icons/react.svg" 
-                        alt="react" />
-                  <Icons i="public/image/icons/github.svg" 
-                        alt="github" />
-                  <Icons i="public/image/icons/codepen.svg" 
-                        alt="codepen" />
-                  <Icons i="public/image/icons/sass.svg" 
-                        alt="sass" />       
-                  <Icons i="public/image/icons/instagram.svg" 
-                        alt="instagram" />
-                  <Icons i="public/image/icons/linkd.svg" 
-                        alt="linkedin" />              
-              </div>    
-
-            </Form>*/}
+      
         
           
         </div>  

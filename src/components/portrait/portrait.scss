@@ -1,4 +1,5 @@
-
+@import './src/scss/global.scss';
+@import './../../scss/mixins.scss';
    
 
 
@@ -9,16 +10,16 @@
     overflow: hidden;
   }
   
-  .fondo-tramaBlack {
-    /*position: absolute;*/
+  /* .fondo-tramaBlack {
+   position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url(../../../public/image/tramaBlack.webp);
+    background-image: url(../../images/imagesSvg/tramaBlack.svg);
     background-size: cover;
-    background-position: center;
-  }
+    background-position: center;*/
+  
   
  
   
