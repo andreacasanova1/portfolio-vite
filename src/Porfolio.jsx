@@ -39,8 +39,8 @@ export default function Portfolio() {
         
         < Artshop />
         
-          < Form form__rr-ss>
-              <div style={{ display: 'flex', gap: '16px', justifyContent: 'space-around', flexWrap: 'wrap' }}>
+          < Form >
+              <div className='form__rr-ss'>
                   <Icons i="public/image/icons/react.svg" 
                         alt="react" />
                   <Icons i="public/image/icons/github.svg" 
@@ -54,7 +54,27 @@ export default function Portfolio() {
                   <Icons i="public/image/icons/linkd.svg" 
                         alt="linkedin" />              
               </div>    
+
             </Form>
+
+
+        {/*     < Form className='form__rr-ss'>
+              <div>
+                  <Icons i="public/image/icons/react.svg" 
+                        alt="react" />
+                  <Icons i="public/image/icons/github.svg" 
+                        alt="github" />
+                  <Icons i="public/image/icons/codepen.svg" 
+                        alt="codepen" />
+                  <Icons i="public/image/icons/sass.svg" 
+                        alt="sass" />       
+                  <Icons i="public/image/icons/instagram.svg" 
+                        alt="instagram" />
+                  <Icons i="public/image/icons/linkd.svg" 
+                        alt="linkedin" />              
+              </div>    
+
+            </Form>*/}
         
           
         </div>  

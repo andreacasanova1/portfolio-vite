@@ -1,5 +1,5 @@
-@import './global.scss';
-@import './Icons.scss';
+@import './src/scss/global.scss'; 
+
 
 
 .icon--small {
@@ -16,3 +16,29 @@
     
 
 }
+
+.form__rr-ss {  
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+}  
+
+.nombre-i {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 5px 5px 5px;
+}
+ 
+ 
