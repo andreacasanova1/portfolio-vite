@@ -12,7 +12,8 @@ import Portrait from './components/portrait/Portrait'
 import Cards from './components/cards/Cards'
 import Artshop from './components/artshop/Artshop'
 import Form from './components/form/Form'
-import ImageLoopAnimation from './components/loop/Loop';
+import ImageLoopAnimation from './components/loop/Loop'
+import Icons from '../src/components/iconsSvg/Icons'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,8 @@ function App() {
           <Route path='/portrait' element={<Portrait/>} />
           <Route path='/cards' element={<Cards />} />
           <Route path='/artshop' element={<Artshop />} />
-          <Route path='/form' element={<Form />} />       
+          <Route path='/form' element={<Form />} />
+          <Route path='/icons' element={<Icons />} />      
       </Routes>
       
       </main>

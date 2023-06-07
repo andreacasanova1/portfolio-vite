@@ -3,7 +3,7 @@ import './form.scss';
 
 
 
-const Form= () => {
+const Form= (props) => {
   return (
     <>
      
@@ -35,9 +35,12 @@ const Form= () => {
           </form>
           
           <div className="form__rr-ss">
-              <div className="react">
-                <i className="react-i"></i>
+              
+              <div className="nombre-i">{props.name}
+                <img src={props.i} alt={props.alt}/>
               </div>
+              
+              
               <div className="git-hub">
                 <i className="git-hub-i"></i>
               </div>
