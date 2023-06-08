@@ -5,10 +5,7 @@
 
 
 
-h2 {
-    font-size: 1.5em;
-    line-height: 1.1;
-  }
+
   
   button {
     border-radius: px;
@@ -31,12 +28,45 @@ h2 {
 
   .buttonprincipal {
     background-color: $orange-web;
-    border: solid 2px;
+    border: solid 1px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 1em;
     border-radius: 6px;
+    max-width: fit-content;
+    &:hover {
+      background-color: $orange-smoot;
+      color: $color-blue;
+      border-color: $color-blue;
+      
+    &:visited{
+      background-color: $silver;
+      color: $color-black;
+    }
+    }
+  }
+
+  .button-secundario {
+    background-color: $color-black;
+    color: $color-white;
+    border: solid 1px $color-black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    max-width: fit-content;
+    &:hover {
+      background-color: $orange-smoot;
+      color: $color-blue;
+      border-color: $color-blue;
+      
+    &:visited{
+      background-color: $silver;
+      color: $color-black;
+    }
+    }
+
   }
   
   

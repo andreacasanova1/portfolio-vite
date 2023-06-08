@@ -18,21 +18,30 @@ export default function Portfolio() {
 
         < Portrait/>
         
-        <div style={{ display: 'flex', gap: '16px', justifyContent: 'space-around', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', gap: 'calc(100vw / 3)', justifyContent: 'space-around', flexWrap: 'wrap' }}>
               <Slide direction='down' duration='1000' cascade='true'>
+               
                 < Cards title="Diseño y desarrollo web"
                         image="public\image\diseño-desarrollo.webp" 
-                        paragraph='Lorem ipsum dolor sit amet consectetur. Molestie eget tortor feugiat massa tristique. Sem laoreet libero tellus mauris metus mattis. Tristique aliquet nulla commodo sapien lacus at. Felis donec porttitor nibh consequat. Nulla ridiculus nulla massa elementum risus ultrices. Id vitae dictumst enim tristique. Sem iaculis curs'
+                        paragraph='Diseño sitios web y portafolios para artistas 
+                        que les permita gestionar su propio e-commerce'
 
                 />
-                < Cards title="Diseño y desarrollo webUX / UI DESIGN"
+                < Cards title="UX / UI DESIGN"
                         image="public\image\ux-ui.webp" 
-                        paragraph='Lorem ipsum dolor sit amet consectetur. Molestie eget tortor feugiat massa tristique. Sem laoreet libero tellus mauris metus mattis. Tristique aliquet nulla commodo sapien lacus at. Felis donec porttitor nibh consequat. Nulla ridiculus nulla massa elementum risus ultrices. Id vitae dictumst enim tristique. Sem iaculis curs'
+                        paragraph="El objetivo de la experiencia 
+                        de usuario es optimizar la interaccion de los  
+                        humanos con los sistemas tecnologicos mediante el diseño 
+                        de interfaces  eficientes e intuitivas."
 
                 />
-                < Cards title="marketing digital"
+                < Cards title="Marketing digital, SEO"
                         image="public\image\marketing.webp"  
-                        paragraph='Lorem ipsum dolor sit amet consectetur. Molestie eget tortor feugiat massa tristique. Sem laoreet libero tellus mauris metus mattis. Tristique aliquet nulla commodo sapien lacus at. Felis donec porttitor nibh consequat. Nulla ridiculus nulla massa elementum risus ultrices. Id vitae dictumst enim tristique. Sem iaculis curs'
+                        paragraph="A través del SEO, mejoro la visibilidad de
+                        las empresas en línea al posicionar sus sitios web en
+                        los primeros resultados de búsqueda. 
+                        Planificar y ejecutar una buena estrategia de marketing 
+                        digital es esencial para cualquier empresa "
 
                 />
               </Slide>

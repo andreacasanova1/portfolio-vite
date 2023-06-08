@@ -12,10 +12,29 @@ const Portrait = () => {
           <h1 className="vertical-text">Front-end Developer and Visual Artist</h1>
         </div>
         <div className="dress-yellow">
-          <img src="./public/image/dress-yellow.webp" alt="dress yellow"/>
+          <img className='mi-vestido' src="./public/image/dress-yellow.webp" alt="dress yellow"/>
         </div>   
         <div className="retrato">
-          <img src="./public/image/retrato.webp" alt="retrato"/>
+          <img className='mi-retrato' src="./public/image/retrato.webp" alt="retrato"/>
+          <p className='mi-bio'>
+          Me encanta poner mis conocimientos al servicio de las 
+							necesidades de otros artistas y fotógrafos y ayudarlos 
+							a destacar sus obras, no obstante, estoy capacitada para
+							 desarrollar cualquier tipo de proyecto web.
+
+              
+						</p>
+						<p className='mi-bio'>
+							Mi personalidad es inquieta y me gusta estar en constante 
+							aprendizaje,  por eso comencé a incursionar por el diseño 
+							web y hoy me especializo en desarrollo Front end, diseño 
+							UX UI y marketing digital.
+						</p>
+						<p className='mi-bio'>
+            Mi nombre es Andrea Casanova soy apasionada 
+							del arte y el diseño, Artista Visual multidisciplinar,
+							 tengo más de diez años de trayectoria, muchas 
+							 exposiciones y algunos premios.</p>
         </div>     
   </div>        
 

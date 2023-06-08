@@ -16,9 +16,9 @@
             text-align: center;
     }
         &.portrait {
-            justify-content: space-between;
+            
             flex-wrap: nowrap;  
-    
+            justify-content: flex-end;
     }
 
     }

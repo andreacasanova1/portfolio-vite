@@ -33,7 +33,7 @@ const Form= (props) => {
                 <input type="checkbox" id="terminos" name="terminos" />
                 <label htmlFor="terminos">Aceptar términos y condiciones</label>
               </div>
-              <button type="submit">Enviar</button>
+              <button className='button-secundario' type="submit">Enviar</button>
           </form>
           { props.children } {/*este props es necesario para poder anidar otro componentes  */}
           

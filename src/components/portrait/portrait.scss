@@ -3,19 +3,6 @@
    
 
   
-  /* .fondo-tramaBlack {
-   position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../../images/imagesSvg/tramaBlack.svg);
-    background-size: cover;
-    background-position: center;*/
-  
-  
- 
-  
   .dress-yellow {
     max-width: 100%;
     height: auto;
@@ -23,18 +10,28 @@
   
   
    .retrato {
-     
+    max-width: 100%;
+    height: auto;
     /* top: 5%;
      left: 45vw;
   
      height: auto;
      transform: translateY(100vw);
      margin-right: -45vw;*/
-
-    max-width: 100%;
-    height: auto;
+ 
    }
-  
+  .mi-bio {
+    display: flex;
+    color: #ffffff;
+    max-width: 300px;
+    animation: deslizar 10s infinite;
+    margin-top: -65%;
+    margin-bottom: 20%;
+    position: relative;
+    margin-left: 10%;
+    flex-direction: column;
+    
+  }
   .fondo-negro {
     position: fixed;
     top: 0;
@@ -47,4 +44,31 @@
     justify-content: center;
     color: white;
     font-size: 2rem;
+  }
+
+  .mi-retrato {
+    width: 50vw;
+    height: 100vh;
+    & {
+      animation: mi-retrato 12s linear 1s  reverse none;
+     }
+    
+     @keyframes mi-retrato {
+	0% {
+		transform: scale(4);
+		transform-origin: 100% 50%;
+	}
+
+	100% {
+		transform: scale(1);
+		transform-origin: 100% 50%;
+	}
+}
+
+
+  }
+
+  .mi-vestido {
+    width: 50vw;
+    height: 100vh;
   }

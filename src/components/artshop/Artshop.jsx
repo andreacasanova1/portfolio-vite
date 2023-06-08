@@ -19,7 +19,7 @@ const Artshop = () => {
                     <a href="ruta_del_enlace">
                     <img
                     src="./public/frame1.svg"
-                    alt="Logo con enlace"
+                    alt="Logo Andrea Casanova"
                     className="mi__logo"
                     />
                     </a>
