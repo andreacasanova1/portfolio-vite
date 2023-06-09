@@ -14,15 +14,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a  {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-.portfolio:hover {
-  color: #141414;
-  color: #141414;
-}
+
+
 
 body {
   margin: 0;
@@ -30,19 +23,13 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x:hidden;
 }
 
 
 
 
-button:hover {
-  border-color: #070707;
-  background-color: #FBA92C;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {

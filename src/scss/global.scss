@@ -6,6 +6,7 @@
 
 
 
+
   
   button {
     border-radius: px;
@@ -20,6 +21,7 @@
   }
   button:hover {
     border-color: $orange-smoot;
+    background-color: $color-grey-smoot;
   }
   button:focus,
   button:focus-visible {
@@ -28,7 +30,7 @@
 
   .buttonprincipal {
     background-color: $orange-web;
-    border: solid 1px;
+    border: solid 1px ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,8 +39,8 @@
     max-width: fit-content;
     &:hover {
       background-color: $orange-smoot;
-      color: $color-blue;
-      border-color: $color-blue;
+      color: $byzantine-blue;
+      border-color: $byzantine-blue;
       
     &:visited{
       background-color: $silver;
@@ -58,8 +60,8 @@
     max-width: fit-content;
     &:hover {
       background-color: $orange-smoot;
-      color: $color-blue;
-      border-color: $color-blue;
+      color: $byzantine-blue;
+      border-color: $byzantine-blue;
       
     &:visited{
       background-color: $silver;
@@ -102,3 +104,30 @@
     color: blue;
   }
   
+  #horizontal {
+  overflow:hidden;
+  white-space:nowrap;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+ 
+  display:flex;
+  flex-wrap:no-wrap;
+}
+.pane {
+  flex:0 0 100vw;
+  height:100vh;
+  display:flex;
+  position:relative;
+  align-items:center;
+  justify-content:center;
+  
+}
+
+.pane:nth-child(n+1):nth-child(-n+7) {
+  background-color: transparent;
+ /* background-image: url(ruta-de-la-imagen.jpg);*/
+/* Otras propiedades de estilo para la imagen */
+}
