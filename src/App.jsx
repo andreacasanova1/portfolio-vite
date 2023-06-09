@@ -1,7 +1,6 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+
 import './App.css';
 import './scss/global.scss';
 
@@ -34,16 +33,7 @@ function App() {
       
       </main>
 
-      <div className="card">
-        
-      <button className='portfolio'>
-        <Link to='/Portfolio'>Portfolio</Link>
-      </button>
-        <p className='card'>
-        Click on Casanova and Portfolio for view my work. 
-          
-        </p>
-      </div>
+      
       
     </>
   )
