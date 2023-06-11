@@ -6,9 +6,9 @@ const Cards = (props) => {
 
   return (
     <>
-<div className='artshop-content-cuervos'>    
+   
     <article className='card-padre'>
-    <h1 className='vertical-text'>{props.title}</h1>
+      <h1 className='vertical-text'>{props.title}</h1>
       <div className='card-flex'>
         
           <div className="card__img">
@@ -16,10 +16,11 @@ const Cards = (props) => {
           </div> 
           
           <p className="paragraph">{props.paragraph}</p>
+          
           <button className="buttonprincipal">Ver más</button>
       </div>
     </article>
-</div>       
+      
     </>
   );
 };

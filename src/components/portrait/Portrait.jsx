@@ -16,25 +16,22 @@ const Portrait = () => {
         </div>   
         <div className="retrato">
           <img className='mi-retrato' src="./public/image/retrato.webp" alt="retrato"/>
-          <p className='mi-bio'>
-          Me encanta poner mis conocimientos al servicio de las 
-							necesidades de otros artistas y fotógrafos y ayudarlos 
-							a destacar sus obras, no obstante, estoy capacitada para
-							 desarrollar cualquier tipo de proyecto web.
-
-              
-						</p>
-						<p className='mi-bio'>
+            <p className='mi-bio'>
+              Mi nombre es Andrea Casanova soy apasionada 
+							del arte y el diseño, Artista Visual multidisciplinar,
+							 tengo más de diez años de trayectoria, muchas 
+							 exposiciones y algunos premios. <br />  
+						
 							Mi personalidad es inquieta y me gusta estar en constante 
 							aprendizaje,  por eso comencé a incursionar por el diseño 
 							web y hoy me especializo en desarrollo Front end, diseño 
-							UX UI y marketing digital.
-						</p>
-						<p className='mi-bio'>
-            Mi nombre es Andrea Casanova soy apasionada 
-							del arte y el diseño, Artista Visual multidisciplinar,
-							 tengo más de diez años de trayectoria, muchas 
-							 exposiciones y algunos premios.</p>
+							UX UI y marketing digital. <br />
+						
+              Me encanta poner mis conocimientos al servicio de las 
+							necesidades de otros artistas y fotógrafos y ayudarlos 
+							a destacar sus obras, no obstante, estoy capacitada para
+							 desarrollar cualquier tipo de proyecto web.
+           </p>
         </div>     
   </div>        
 

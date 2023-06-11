@@ -24,12 +24,21 @@ h2 {
     height: 100vh;
     display: flex;
     font-weight: bold;
-    left: -2vw;
-    position: absolute;
-
-   
+    margin: 0;
+    
+    
+      &.card-padre {
+          position: initial;
+          margin: 0;
+     }
+     &.artshop-content-cuervos {
+      background-color: $color-grey-smoot;
+      align-content: flex-end;
+      flex-direction: initial;
+      margin :0%;
+     
 }
-
+}
 /* transform: rotate(180deg);
     -ms-writing-mode: tb-rl;
     writing-mode: tb-rl;

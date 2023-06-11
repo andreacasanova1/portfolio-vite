@@ -5,7 +5,14 @@
 
 
 
-
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+ 
+}
 
   
   button {
@@ -104,30 +111,4 @@
     color: blue;
   }
   
-  #horizontal {
-  overflow:hidden;
-  white-space:nowrap;
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
- 
-  display:flex;
-  flex-wrap:no-wrap;
-}
-.pane {
-  flex:0 0 100vw;
-  height:100vh;
-  display:flex;
-  position:relative;
-  align-items:center;
-  justify-content:center;
   
-}
-
-.pane:nth-child(n+1):nth-child(-n+7) {
-  background-color: transparent;
- /* background-image: url(ruta-de-la-imagen.jpg);*/
-/* Otras propiedades de estilo para la imagen */
-}

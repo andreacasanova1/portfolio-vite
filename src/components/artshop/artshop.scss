@@ -1,12 +1,16 @@
 
 .artshop-content-cuervos {
-    background: url("public/image/fondo-cuervos.webp");
-    background-size: cover;
+  
+    background: url(public/image/fondo-cuervos.webp);
+    background-size: contain;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: stretch; */
+    /* justify-content: stretch; */
+    /* flex-wrap: wrap; */
+    /* align-content: stretch; */
+
 }
 
 .sofa_imagen {

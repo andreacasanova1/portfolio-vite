@@ -25,10 +25,10 @@
     color: #ffffff;
     max-width: 300px;
     animation: deslizar 10s infinite;
-    margin-top: -65%;
+    margin-top: -100%;
     margin-bottom: 20%;
     position: relative;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
     flex-direction: column;
     
   }
@@ -47,10 +47,10 @@
   }
 
   .mi-retrato {
-    width: 50vw;
+    width: auto;
     height: 100vh;
     & {
-      animation: mi-retrato 12s linear 1s  reverse none;
+      animation: mi-retrato 20s linear 2s  reverse none;
      }
     
      @keyframes mi-retrato {
@@ -69,6 +69,6 @@
   }
 
   .mi-vestido {
-    width: 50vw;
+    width: 45.5vw;
     height: 100vh;
   }

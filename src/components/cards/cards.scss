@@ -1,15 +1,12 @@
 @import 'src/scss/variable.scss';
 
-.artshop-content-cuervos {
-  background: url("public/image/fondo-cuervos.webp");
-}
 
 .card-padre {
   width: calc(100vw / 3);
   height: 100vh;
   background-color: #dad8d5;
-  flex-direction: column;
-  flex-wrap: wrap;
+ /* flex-direction: column;*/
+ /* flex-wrap: wrap;*/
   display: flex;
   color: #141414;
   align-content: flex-end;
@@ -17,12 +14,13 @@
 
 .card-flex {
   display: flex;
-  width: 25vw;
-  justify-content: space-evenly;
-  flex-direction: column;
-  height: 100vh;
-  margin-right: 1.7rem;
-  margin-top: auto;
+    width: 25vw;
+    justify-content: start;
+    flex-direction: column;
+    height: 100vh;
+    /* margin-right: 1rem; */
+    margin-top: 4rem;
+    margin-left: 1.5rem;
 }
 
 .card__img {
