@@ -8,9 +8,9 @@ const Portrait = () => {
     <>
 
   <div className="fondo-tramaBlack">
-        <div>
-          <h1 className="vertical-text">Front-end Developer and Visual Artist</h1>
-        </div>
+        
+          <h1 className="vertical-text__fondo-tramaBlack" >Front-end Developer and Visual Artist</h1>
+        
         <div className="dress-yellow container-img">
           <img className='mi-vestido' src="./public/image/dress-yellow.webp" alt="dress yellow"/>
         </div>   
