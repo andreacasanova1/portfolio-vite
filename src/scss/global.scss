@@ -115,24 +115,13 @@ body {
 
   .container {
     position: fixed;
-    top: -30px; // Hide the horizontal scrollbar.
+    top: 0; // Hide the horizontal scrollbar.
     left: 0;
-    width: 100vh;
-    height: calc(100vw);
+    width: 100vw;
+    height: 100vh;
   
-    overflow: scroll;
+    overflow: hidden scroll;
     transform: rotate(-90deg);
     transform-origin: center calc(50vh);
-  }
-  
-  .child {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-   
-  
-    transform: rotate(90deg);
   }
   

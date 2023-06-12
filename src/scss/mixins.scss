@@ -1,10 +1,10 @@
-/*ya sé que no es un mixin , pero el mixins no funciona*/
+/*ya sé que no es un mixin , pero el mixins no me salio jaja*/
 .fondo-tramaBlack {
     background-image: url(../../images/imagesSvg/tramaBlack.svg);
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

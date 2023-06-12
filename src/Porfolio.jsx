@@ -6,37 +6,36 @@ import Loop from '../src/components/loop/Loop';
 import Icons from '../src/components/iconsSvg/Icons';
 import './scss/global.scss';
 import './scroll-horizontal.js';
-
+import { Slide, Fade } from 'react-awesome-reveal';
 
 import React, { useState, useEffect } from 'react';
-import { Slide } from "react-awesome-reveal";
 
 
 export default function Portfolio() {
     return (
       <>
 
-<div class="container"> 
-      <div class="content-wrapper">
+<div className="container"> 
+      <div className="content-wrapper">
 
-            < Loop className="child"/>
-            < Portrait className="child"/>
-        
+            < Loop/>
+            <Fade>
+                  < Portrait/>
+            </Fade>
             <div className='artshop-content-cuervos' style={{
                  
                   display: 'flex', 
                   justifyContent: 'space-around',
-                  flexWrap: 'wrap',
                  
                   }}>
              
-               
-                  < Cards title="Diseño y desarrollo web"
-                        image="public\image\diseño-desarrollo.webp" 
-                        paragraph='Diseño sitios web y portafolios para artistas 
-                        que les permita gestionar su propio e-commerce'
+                  <Slide direction='left'>
+                        < Cards title="Diseño y desarrollo web"
+                              image="public\image\diseño-desarrollo.webp" 
+                              paragraph='Diseño sitios web y portafolios para artistas 
+                              que les permita gestionar su propio e-commerce'
 
-                />
+                  />
                   < Cards title="UX / UI DESIGN"
                         image="public\image\ux-ui.webp" 
                         paragraph="El objetivo de la experiencia 
@@ -54,11 +53,12 @@ export default function Portfolio() {
                         digital es esencial para cualquier empresa "
 
                 />
-           
+                             </Slide>
+
             </div>
-            < Artshop className="child" />
+            < Artshop />
         
-            < Form className="child" >
+            < Form >
             <div className='form__rr-ss'>
                   <Icons i="public/image/icons/react.svg" 
                                     alt="react" />

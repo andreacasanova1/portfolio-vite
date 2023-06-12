@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  min-width: 1920px;
   margin: 0; /*modifica el margin tambien de la app, donde esta react+casanova*/
   padding: 0rem;
   

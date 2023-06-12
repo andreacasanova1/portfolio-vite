@@ -15,7 +15,7 @@ import './loop.scss';
     }, []);
   
     return (
-      <div className="background">
+      <div className="background child">
           <img className="pajaro" src={'/frame' + currentImage + '.svg'} alt="SVG Image" />
       </div>
     );

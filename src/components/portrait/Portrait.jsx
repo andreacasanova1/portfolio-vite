@@ -11,10 +11,10 @@ const Portrait = () => {
         <div>
           <h1 className="vertical-text">Front-end Developer and Visual Artist</h1>
         </div>
-        <div className="dress-yellow">
+        <div className="dress-yellow container-img">
           <img className='mi-vestido' src="./public/image/dress-yellow.webp" alt="dress yellow"/>
         </div>   
-        <div className="retrato">
+        <div className="retrato container-img">
           <img className='mi-retrato' src="./public/image/retrato.webp" alt="retrato"/>
             <p className='mi-bio'>
               Mi nombre es Andrea Casanova soy apasionada 

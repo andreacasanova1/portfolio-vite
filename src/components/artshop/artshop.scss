@@ -3,14 +3,6 @@
     transform: rotate(90deg);
     background: url(public/image/fondo-cuervos.webp);
     background-size: contain;
-    height: 100vh;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* align-items: stretch; */
-    /* justify-content: stretch; */
-    /* flex-wrap: wrap; */
-    /* align-content: stretch; */
-
 }
 
 .sofa_imagen {
@@ -19,7 +11,7 @@
     transform: rotate(90deg);
    
 }
-
+/*
 @keyframes deslizar {
     0% {
       transform: translateX(100%);
@@ -27,7 +19,7 @@
     100% {
       transform: translateX(11vw);
     }
-}
+}*/
 
 .mi__logo {
     max-width: 250px;
