@@ -6,21 +6,21 @@ const Cards = (props) => {
 
   return (
     <>
-   
-    <article className='card-padre'>
-      <h1 className='vertical-text'>{props.title}</h1>
-      <div className='card-flex'>
-        
-          <div className="card__img">
-            <img src={props.image} alt={props.alt} />
-          </div> 
-          
-          <p className="paragraph">{props.paragraph}</p>
-          
-          <button className="buttonprincipal">Ver más</button>
-      </div>
-    </article>
-      
+   <div style={{transform: 'rotate 90deg' }}>
+        <article className='card-padre'>
+          <h1 className='vertical-text'>{props.title}</h1>
+          <div className='card-flex'>
+            
+              <div className="card__img">
+                <img src={props.image} alt={props.alt} />
+              </div> 
+              
+              <p className="paragraph">{props.paragraph}</p>
+              
+              <button className="buttonprincipal">Ver más</button>
+          </div>
+        </article>
+    </div>
     </>
   );
 };

@@ -9,6 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    transform: rotate(90deg);
     
         &.form {
             overflow: hidden;

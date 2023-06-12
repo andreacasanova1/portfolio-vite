@@ -20,12 +20,12 @@ const Portrait = () => {
               Mi nombre es Andrea Casanova soy apasionada 
 							del arte y el diseño, Artista Visual multidisciplinar,
 							 tengo más de diez años de trayectoria, muchas 
-							 exposiciones y algunos premios. <br />  
+							 exposiciones y algunos premios. <br /> <br /> 
 						
 							Mi personalidad es inquieta y me gusta estar en constante 
 							aprendizaje,  por eso comencé a incursionar por el diseño 
 							web y hoy me especializo en desarrollo Front end, diseño 
-							UX UI y marketing digital. <br />
+							UX UI y marketing digital. <br /> <br />
 						
               Me encanta poner mis conocimientos al servicio de las 
 							necesidades de otros artistas y fotógrafos y ayudarlos 

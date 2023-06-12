@@ -2,14 +2,16 @@
 
 
 .card-padre {
-  width: calc(100vw / 3);
-  height: 100vh;
-  background-color: #dad8d5;
- /* flex-direction: column;*/
- /* flex-wrap: wrap;*/
-  display: flex;
-  color: #141414;
-  align-content: flex-end;
+ 
+
+  width: 150%;
+    height: 80vh;
+    background-color: #dad8d5;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    color: #141414;
+    justify-content: space-between;
 } 
 
 .card-flex {

@@ -16,11 +16,19 @@ export default function Portfolio() {
     return (
       <>
 
-<div> 
-      < Loop/>
-      < Portrait/>
+<div class="container"> 
+      <div class="content-wrapper">
+
+            < Loop className="child"/>
+            < Portrait className="child"/>
         
-        <div style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
+            <div className='artshop-content-cuervos' style={{
+                 
+                  display: 'flex', 
+                  justifyContent: 'space-around',
+                  flexWrap: 'wrap',
+                 
+                  }}>
              
                
                   < Cards title="Diseño y desarrollo web"
@@ -47,10 +55,10 @@ export default function Portfolio() {
 
                 />
            
-      </div>
-      < Artshop />
+            </div>
+            < Artshop className="child" />
         
-      < Form >
+            < Form className="child" >
             <div className='form__rr-ss'>
                   <Icons i="public/image/icons/react.svg" 
                                     alt="react" />
@@ -66,8 +74,8 @@ export default function Portfolio() {
                                     alt="linkedin" />              
             </div>    
 
-      </Form>
-          
+            </Form>
+      </div>    
 </div>     
       
       </>

@@ -111,4 +111,28 @@ body {
     color: blue;
   }
   
+  /*CSS PARA SCROLL HORIZONTAL*/
+
+  .container {
+    position: fixed;
+    top: -30px; // Hide the horizontal scrollbar.
+    left: 0;
+    width: 100vh;
+    height: calc(100vw);
+  
+    overflow: scroll;
+    transform: rotate(-90deg);
+    transform-origin: center calc(50vh);
+  }
+  
+  .child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+  
+    transform: rotate(90deg);
+  }
   
