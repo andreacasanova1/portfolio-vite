@@ -7,7 +7,7 @@ const Artshop = (props) => {
           <section className="content-cuervos__artshop">
               <h1 className="vertical-text__artshop">Art Shop</h1>
                     <div className='sofa-content__artshop'>
-                        <div className="sofa_imagen">
+                        <div className="sofa_imagen__img">
                           <img src={props.image} alt={props.alt} />
                         </div>
                         
