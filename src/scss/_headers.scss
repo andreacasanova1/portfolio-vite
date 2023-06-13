@@ -20,24 +20,37 @@ h1 {
 
       &__fondo-tramaBlack {
         transform: rotate(-180deg);
-      -ms-writing-mode: tb-rl;
-      writing-mode: tb-rl;
-        background-color: aqua;
+        -ms-writing-mode: tb-rl;
+        writing-mode: tb-rl;
         width: 100px;
         font-family: "Cinzel", serif;
-      font-size: 1.5rem;
-      text-transform: uppercase;
-      background-color: #fff;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      display: flex;
-        
-        font-size: 2rem;
-       
-        
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        background-color: #fff;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        display: flex;
+        font-size: 2rem; 
         margin: initial;
         margin-top: 420px;
+      }
+      
+      &__artshop {
+        transform: rotate(-180deg);
+        -ms-writing-mode: tb-rl;
+        writing-mode: tb-rl;
+        width: 160px;
+        font-family: "Cinzel", serif;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        background-color: #f1f1f1;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        display: flex;
+        font-weight: bold;
+        margin: 0;
       }
   }
 }

@@ -16,20 +16,15 @@ export default function Portfolio() {
       <>
 
 <div className="container"> 
-      <div className="content-wrapper">
+     
 
             < Loop/>
             <Fade>
                   < Portrait/>
             </Fade>
-            <div className='artshop-content-cuervos' style={{
-                 
-                  display: 'flex', 
-                  justifyContent: 'space-around',
-                 
-                  }}>
+            <section className='content-cuervos__card'>
              
-                  <Slide direction='left'>
+               {/*    <Slide direction='left'>*/}
                         < Cards title="Diseño y desarrollo web"
                               image="public\image\diseño-desarrollo.webp" 
                               paragraph='Diseño sitios web y portafolios para artistas 
@@ -53,10 +48,11 @@ export default function Portfolio() {
                         digital es esencial para cualquier empresa "
 
                 />
-                             </Slide>
+                          {/*    </Slide>*/}
 
-            </div>
-            < Artshop />
+            </section>
+            < Artshop  image="public\image\sofa.webp"
+                        imageLogo="public\frame1.svg"/>
         
             < Form >
             <div className='form__rr-ss'>
@@ -75,7 +71,7 @@ export default function Portfolio() {
             </div>    
 
             </Form>
-      </div>    
+          
 </div>     
       
       </>

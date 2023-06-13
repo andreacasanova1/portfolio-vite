@@ -121,8 +121,12 @@ body {
     height: 202vh;
     overflow: hidden scroll;
     transform: rotate(-90deg);
-    transform-origin: center 30vw;position: fixed;
+    transform-origin: center 30vw;
+    position: fixed;
 
 
   }
-  
+  .content-wrapper {
+    height: 100vw;
+    width: 100vh;
+  }

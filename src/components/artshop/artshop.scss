@@ -1,14 +1,20 @@
+section { 
+background-image: url(public/image/fondo-cuervos.webp);
+transform: rotate(90deg);
+justify-content: center;
+display: flex;
 
-.artshop-content-cuervos {
-    transform: rotate(90deg);
-    background: url(public/image/fondo-cuervos.webp);
-    background-size: contain;
+    
 }
-
+.content-sofa__artshop {
+    height: 100vh;
+    width: 100vw;
+}
 .sofa_imagen {
+    height: 100vh;
     animation: deslizar 5s infinite;
     max-width: 100vw;
-    transform: rotate(90deg);
+   
    
 }
 /*
@@ -21,19 +27,36 @@
     }
 }*/
 
-.mi__logo {
-    max-width: 250px;
-    animation: deslizar 3s infinite;
-    margin-top: -77%;
-    margin-bottom: 25%;
-    position: relative;
-    margin-left: 70%;
+.logo__btn {
+  height: 250px;
+  max-width: 250px;
+ 
+  margin-top: -42%;
+  margin-left: 78%;
+  padding: 1rem;
+  transform: rotate3d(1, 1, 1, 39deg);
+  
+ 
         &:hover{ 
-            background-image: url("public/frame2.svg");
-            max-width: 250px;
-            display:none;
+          filter: drop-shadow(0 0 3em #0004f8e8);
+          
+
             /*revisar como poner un condicional para que en hover desaparesca logo 1 y se ponga logo 2*/
     }
-   
-}
+  }
+
+  @keyframes logo__btn {
+    from {
+      transform: rotate3d(0deg);
+    }
+    to {
+      transform: rotate3d(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo_btn {
+      animation: logo__btn infinite 20s linear;
+    }
+  }
 
