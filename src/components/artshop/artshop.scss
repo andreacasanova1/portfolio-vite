@@ -1,19 +1,43 @@
 section { 
-background-image: url(public/image/fondo-cuervos.webp);
-transform: rotate(90deg);
-justify-content: center;
-display: flex;
-
-    
+  background-image: url(public/image/fondo-cuervos.webp);
+  transform: rotate(90deg);
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: -300px;
+  width: 10;
+  width: 100vh;
+  height: 100vw;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+    &.content-cuervos {
+        height: 100vw;
+        width: 100vh;
+        display: flex;
+        align-items: stretch;
+            &__card {
+            height: 100vw;
+            width: 100vh;
+            display: flex;
+            align-items: stretch;
+        }
+    }
 }
-.content-sofa__artshop {
-    height: 100vh;
-    width: 100vw;
+.sofa-content__artshop {
+  height: 100vw;
+  width: 133vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: initial;
+  justify-content: flex-start;
+  align-items: center;
 }
 .sofa_imagen {
-    height: 100vh;
+    height: 100vw;
     animation: deslizar 5s infinite;
-    max-width: 100vw;
+    max-width: 100vh;
    
    
 }
