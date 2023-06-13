@@ -25,7 +25,7 @@ export default function Portfolio() {
             <section className='content-cuervos__card'>
              
                 <Slide direction='down'>
-                        < Cards title="Diseño y desarrollo web"
+                        < Cards title="Web design and development"
                               image="public\image\diseño-desarrollo.webp" 
                               paragraph='Diseño sitios web y portafolios para artistas 
                               que les permita gestionar su propio e-commerce'
@@ -39,7 +39,7 @@ export default function Portfolio() {
                         de interfaces  eficientes e intuitivas."
 
                 />
-                  < Cards title="SEO / Marketing digital"
+                  < Cards title="SEO / Digital Marketing "
                         image="public\image\marketing.webp"  
                         paragraph="A través del SEO, mejoro la visibilidad de
                         las empresas en línea al posicionar sus sitios web en

@@ -12,7 +12,7 @@ const Artshop = (props) => {
                         </div>
                         
                        <div className="logo__btn"> 
-                            <a href="ruta_del_enlace"> Click on the logo
+                            <a href="https://andreacasanova.art/inicio-slider/"> Click on the logo
                               <img src={props.imageLogo} alt="Logo Andrea Casanova" />
                             </a>
                         </div>
