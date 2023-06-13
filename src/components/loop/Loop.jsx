@@ -6,8 +6,8 @@ import './loop.scss';
   
     useEffect(() => {
       const interval = setInterval(() => {
-        setCurrentImage(currentImage === 1 ? 2 : 1);
-      }, 1000);
+        setCurrentImage(currentImage === 1 ? 2 : 1, 2);
+      }, Infinity);
     
       return () => {
         clearInterval(interval);

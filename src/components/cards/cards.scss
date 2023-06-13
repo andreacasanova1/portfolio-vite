@@ -2,7 +2,7 @@
 
 
 .card-padre {
-    width: 440px;
+    width: 450px;
     height: 100vh;
     background-color: #dad8d5;
     flex-direction: row;
@@ -14,11 +14,11 @@
 
 .card-flex {
     display: flex;
-    width: 25vw;
+    width: 18vw;
     justify-content: start;
     flex-direction: column;
     height: 100vh;
-    /* margin-right: 1rem; */
+    margin-right: 1rem;
     margin-top: 4rem;
     margin-left: 1.5rem;
 }

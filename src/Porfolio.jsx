@@ -24,7 +24,7 @@ export default function Portfolio() {
             </Fade>
             <section className='content-cuervos__card'>
              
-               {/*    <Slide direction='left'>*/}
+                <Slide direction='down'>
                         < Cards title="Diseño y desarrollo web"
                               image="public\image\diseño-desarrollo.webp" 
                               paragraph='Diseño sitios web y portafolios para artistas 
@@ -48,7 +48,7 @@ export default function Portfolio() {
                         digital es esencial para cualquier empresa "
 
                 />
-                          {/*    </Slide>*/}
+                         </Slide>
 
             </section>
             < Artshop  image="public\image\sofa.webp"
