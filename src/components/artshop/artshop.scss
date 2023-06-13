@@ -52,10 +52,8 @@ section {
 }
 .sofa_imagen__img {
     height: 100vw;
-    
+    animation: sofa_imagen 5s ease 11s 20 normal forwards;
     max-width: 100vh;
-  
-
   
      & img {
       min-height: 100vh;
@@ -64,44 +62,51 @@ section {
    
    
 }
-/*
-@keyframes deslizar {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(11vw);
-    }
-}*/
+@keyframes sofa_imagen {
+	0% {
+		opacity: 0;
+		transform: rotateX(-100deg);
+		transform-origin: top;
+	}
 
-.logo__btn {
+	100% {
+		opacity: 1;
+		transform: rotateX(0deg);
+		transform-origin: top;
+	}
+}
+
+.logo__btn{
     height: 18vw;
     max-width: 13vw;
-    margin-top: -266%;
-    margin-left: 130%;
-    transform: rotate3d(1, 1, 1, 39deg);
-  
- 
+    margin-top: -255%;
+    margin-left: 120%;
+   
+    animation: logo_btn 5s linear 1s 5 normal forwards;
         &:hover{ 
-          filter: drop-shadow(0 0 3em #0004f8e8);
-          
-
+          filter: drop-shadow(0 0 4em #f8aa00e8);
             /*revisar como poner un condicional para que en hover desaparesca logo 1 y se ponga logo 2*/
     }
   }
 
-  @keyframes logo__btn {
-    from {
-      transform: rotate3d(0deg);
-    }
-    to {
-      transform: rotate3d(360deg);
-    }
+  a {
+    display: flex;
+    color: black;
+    font-size: 37px;
+    color: #fba92c;
   }
+
+  @keyframes logo_btn {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px) rotate(-200deg);
+    }
   
-  @media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo_btn {
-      animation: logo__btn infinite 20s linear;
+    100% {
+      opacity: 1;
+      transform: translateX(0) rotate(0deg);
     }
   }
+
+ 
 

@@ -16,8 +16,20 @@
 .mi-vestido {
       height: 100vw;
       width: auto;
+      animation: mi-vestido 5s linear 3s 2 normal forwards;
+      
     }  
-
+    @keyframes mi-vestido {
+      0% {
+        opacity: 0;
+        transform: translateY(250px);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
 
   
 
@@ -53,7 +65,7 @@
     height: 50vw;
     width: auto;
     & {
-      animation: mi-retrato 15s ease-out 4s 3 reverse both;
+      animation: mi-retrato 15s ease-out 6s 3 reverse both;
      }
     
      @keyframes mi-retrato {

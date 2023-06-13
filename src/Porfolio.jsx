@@ -52,7 +52,7 @@ export default function Portfolio() {
 
             </section>
             < Artshop  image="public\image\sofa.webp"
-                        imageLogo="public\frame1.svg"/>
+                        imageLogo="public/casanova.svg"/>
         
             < Form >
             <div className='form__rr-ss'>
