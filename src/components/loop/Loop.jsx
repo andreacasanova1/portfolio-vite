@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import './loop.scss';
 
-    const ImageLoopAnimation = () => {
+    
+
+
+
+const ImageLoopAnimation = () => {
     const [currentImage, setCurrentImage] = useState(0);
   
     useEffect(() => {
       const interval = setInterval(() => {
-        setCurrentImage(currentImage === 1 ? 2 : 1, 2);
-      }, Infinity);
+        setCurrentImage(currentImage === 1 ? 2 : 1);
+      },);
     
       return () => {
         clearInterval(interval);
@@ -21,4 +25,4 @@ import './loop.scss';
     );
   };
   
-  export default ImageLoopAnimation;
+  export default ImageLoopAnimation; 
